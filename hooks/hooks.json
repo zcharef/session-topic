@@ -1,0 +1,4 @@
+{
+  "description": "Names the session after its topic: a fork of the session after the first reply (of a new session, or of one after /clear), Haiku over the summary after each compaction. The name reaches Claude Code at the next prompt (sessionTitle) and a herdr pane at once (pane report-metadata).",
+  "modules": ["./register.ts"]
+}

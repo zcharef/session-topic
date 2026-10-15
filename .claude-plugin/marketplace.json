@@ -1,0 +1,15 @@
+{
+  "name": "session-topic",
+  "description": "session-topic, a Claude Code mod that names each session after its topic.",
+  "owner": {
+    "name": "Zayed Charef",
+    "url": "https://github.com/zcharef"
+  },
+  "plugins": [
+    {
+      "name": "session-topic",
+      "source": "./",
+      "description": "Names each Claude Code session after what it is about. Shows the name in herdr panes too."
+    }
+  ]
+}

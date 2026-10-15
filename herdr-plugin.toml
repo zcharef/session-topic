@@ -1,0 +1,17 @@
+id = "zcharef.session-topic"
+name = "session-topic"
+version = "0.1.0"
+min_herdr_version = "0.9.0"
+description = "Names each Claude Code pane after the session's topic. Installs the session-topic Claude Code plugin, which does the work."
+platforms = ["linux", "macos"]
+
+# The work happens inside Claude Code: this herdr plugin only installs it.
+[[build]]
+command = ["sh", "scripts/install-claude-plugin.sh"]
+
+[[actions]]
+id = "install-claude-plugin"
+title = "Install/update the Claude Code plugin"
+description = "Installs session-topic in Claude Code, or updates it."
+contexts = ["global"]
+command = ["sh", "scripts/install-claude-plugin.sh"]

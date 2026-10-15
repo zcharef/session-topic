@@ -1,0 +1,13 @@
+{
+  "name": "session-topic",
+  "version": "0.1.0",
+  "description": "Names each Claude Code session after what it is about, after the first reply, after the first reply that follows a /clear, and after each compaction. Shows the name in herdr panes too.",
+  "author": {
+    "name": "Zayed Charef",
+    "url": "https://github.com/zcharef"
+  },
+  "homepage": "https://github.com/zcharef/session-topic",
+  "repository": "https://github.com/zcharef/session-topic",
+  "license": "MIT",
+  "keywords": ["session", "title", "tab", "herdr", "mod"]
+}

@@ -1,0 +1,8 @@
+# Written by Claude Code each time it loads the plugin from this folder.
+.claude-plugin/types/
+
+.DS_Store
+*.log
+
+# Local working notes, never published.
+dev/
